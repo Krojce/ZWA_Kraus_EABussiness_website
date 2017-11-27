@@ -26,57 +26,73 @@ Databáze obsahuje 5 tabulek.
 Zde popíšu každou stránku zvlášť a její možnosti.
 ### **Homepage**
 Základní informace a odkazy na další záložky. Nic zajímavého.
+
 ![Alt text](Screenshots_ZWA/homepage.PNG "Homepage")
 
 ### **About us**
 Informace o společnosti, kontakty a obecné informace. Nic technicky zajímavého.
+
 ![Alt text](Screenshots_ZWA/aboutus.PNG "About us")
 
 ### **Europe**
 Pro tuto stránku je na backendu připraven SQL příkaz, který ví, že má vytáhnout z databáze sponzory a klienty z Evropy a z cookie si vytáhne, v jaké jazykové mutaci má data vytáhnout. Zároveň jsou data tažená již abecedně sežazená. Po úspěšném SQL příkazu je iterováno mezi daty a jsou postupně zobrazovány. Při přihlášení jako admin se u příspěvku objeví editovací ikona, která dovolí příspěvek editovat. Je zde využíváno query v URL.
+
 ![Alt text](Screenshots_ZWA/europe.PNG "Europe")
 
 ### **Asia**
 Stejný přístup jako pro Evropu.
+
 ![Alt text](Screenshots_ZWA/asia.PNG "Asia")
 
 ### **Blog**
 Na této stránce jsou přidané příspěvky blogu pomocí formuláře. Při přihlášení jako admin jde příspěvky přidávat a zároveň i editovat. Příspěvky se ředí podle data přidání. Nejnovější nahoře. Pro tuto část již není dělaná jazyková mutace.
+
 ![Alt text](Screenshots_ZWA/blog.PNG "Blog")
 
 ### **Příspěvek blogu**
 Po kliknutí na Read More se uživatel dostane k příspěvku, který se mu zobrazí celý a zároveň, pokud je přihlášený, má možnost přidávat komentáře. Uživatel může své komentáře i mazat. Admin má možnost mazat všechny komentáře a editovat samotný příspěvek.
+
 ![Alt text](Screenshots_ZWA/post.PNG "Post")
 
 ## **Přihlašování**
 ### **Admin**
 Pro přihlášení jako admin je třeba kliknout na odkaz admin v levé části footeru. Přihlašovací jméno i heslo jsou "admin" (bez uvozovek).
+
 ![Alt text](Screenshots_ZWA/admin_login.PNG "Admin")
 ##### **Add a post**
 Ve footeru je možnsot kliknou na Add Post, kde je adminovi nabídnuta možnost přidat klienta do databáze.
+
 ![Alt text](Screenshots_ZWA/add_a_post.PNG "Add a post")
 ##### **Edit**
 Jednotná ikona pro všechny edit akce. Lze editovat záznamy o klientech a zároveň i editovat blogové příspěvky.
+
 ![Alt text](Screenshots_ZWA/edit.PNG "Edit")
 ##### **Delete**
 U komentářů uživatelů je možnost mazat agresivní a nechtěné komentáře.
+
 ![Alt text](Screenshots_ZWA/delete.PNG "Delete")
 ##### **Add a blog post**
 Přesměrování na formulář, kde je možnost přidat příspěvek a používat i HTML syntaxe pro úpravu vzhledu příspěvku.
+
 ![Alt text](Screenshots_ZWA/add_a_blog_post.PNG "Add a blog post")
 ### **Uživatel**
 ##### **Registration**
 Pro registraci musí uživatel poskytnout uživatelské jméno, email a dostatečně silné heslo. Toto heslo se hashuje a solí pomocí funkce PHP password_hash, která podle dokumentace vyhovuje požadavkům na hashování v současné době a je aktualizována. 
+
 ![Alt text](Screenshots_ZWA/register.PNG "Registration")
 ##### **Login**
 Klasický přihlašovací formulář. Po uživateli je žádána správná kombinace hesla a emailu, které použil při registraci. 
+
 ![Alt text](Screenshots_ZWA/login.PNG "Login")
 ##### **Profile**
 Uživateli je po kliknutí na odkaz [uživatelské_jméno] Profile zobrazen jejich profil, který ze začátku vypadá velmi nudně a v základu v něm je jen Uživatelské jméno, email a defaultní profilový obrázek.
+
 ![Alt text](Screenshots_ZWA/profile.PNG "Profile")
 ##### **Edit Profile**
 Na tomto odkazu může uživatel vylepšit svůj profil o informace, které chce a změnit si svůj profilový obrázek.
+
 ![Alt text](Screenshots_ZWA/edit_profile.PNG "Edit Profile")
 ##### **Add comment**
 Při prohlížení blogových příspěvků má uživatel možnsot se k danému příspěvku vyjádřit formou komentáře. Bohužel mu není dovoleno stylizovat komentář pomocí HTML tagů kvůli předpokladu zlého uživatele a JavaScript injekcí.
+
 ![Alt text](Screenshots_ZWA/comment.PNG "Comment")
