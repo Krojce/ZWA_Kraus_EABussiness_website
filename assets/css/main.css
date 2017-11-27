@@ -1,0 +1,280 @@
+﻿body{
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+}
+a {
+  color: #AE1E20;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #AE1E20;
+  font-weight: bold;
+}
+
+nav a{
+  font-size: 10px;  
+}
+
+#navbar_header_image{
+  height: 30px;
+}
+
+.navbar{
+  margin-bottom: 0px;
+}
+
+#navbar_image{
+  padding: 10px;
+}
+
+.thumbnail{
+  border: none;
+}
+
+.jumbotron {
+  background-image:url('../../assets/images/EAB_main_jumbotronarrow.jpg');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#aboutus{
+  background-image:url('../../assets/images/aboutjumbotron.jpg');
+}
+
+#europe{
+  background-image:url('../../assets/images/jumbotron_europe.jpg');
+}
+
+#asia{
+  background-image:url('../../assets/images/jumbotron_asia.jpg');
+}
+
+.jumbotron .container {
+  position: relative;
+  top:20%;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+.jumbotron p {
+  font-family: 'Roboto', sans-serif;
+  font-weight:400;
+  font-size: 20px;
+  color: #fff;
+}
+
+.jumbotron a {
+	  -webkit-transition: color 0.5s ease-out;
+	  -moz-transition: color 0.5s ease-out;
+	  transition: background-color 0.5s ease;
+	  color: #AE1E20;
+	  background-color: #fff;
+	  font-weight: bold;
+}
+
+.jumbotron a:hover {
+	-webkit-transition: color 0.5s ease-out;
+	-moz-transition: color 0.5s ease-out;
+	transition: background-color 0.5s ease;
+	background-color:#AE1E20;
+	color:#fff;
+	font-weight: bold;
+	text-decoration: none
+}
+
+.learn-more {
+  margin: 15px 0px 0px 0px;
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.copyright {
+	font-size: 11px;
+	color: #ADADAD;
+    background-color: #efefef;
+    padding-top: 10px;
+	border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+.copyright li {
+	display: inline;
+}
+
+.copyright a {
+	font-weight:normal;
+}
+
+.administration{
+  float:  left;
+  padding: 0;
+}
+
+.administration li a{
+  padding-right: 10px;
+}
+
+.btn-share{
+  margin-bottom:20px;
+}
+
+.edit{
+  float: left;
+  margin-top: 20px
+}
+
+#profile-edit{
+
+}
+
+#profile-edit img{
+  width: 20px;
+}
+
+.edit img{
+  width: 20px;
+}
+
+.modal-body{
+  text-align: center;
+}
+
+.img-circle{
+  height: 140px;
+  width: 140px;
+  border: none;
+}
+
+.width-15{
+  width: 15%;
+}
+
+.width-25{
+  width: 25%;
+}
+
+.edit_blog{
+  float: right;
+  margin: 5px;
+}
+
+.edit_blog img{
+  width: 20px;
+}
+
+.logo-img{
+  width: 150px;
+}
+
+.post-alignment{
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+#login{
+  width: 50%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#second-navbar{
+  background-color: #efefef;
+}
+
+#profile{
+  width: 60%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: justify;
+}
+
+.text_clamp {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 16px;    
+   max-height: 176px;    
+   -webkit-line-clamp: 11;
+   -webkit-box-orient: vertical;
+}
+
+.margin20{
+  margin-bottom: 10px; 
+  margin-right: 20px;
+}
+
+.readmore_btn{
+  float: right;
+}
+
+.post{
+  width: 60%;
+}
+
+.panel-shadow {
+  box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px;
+}
+.panel-white {
+  border: 1px solid #dddddd;
+}
+.panel-white  .panel-heading {
+  color: #333;
+  background-color: #fff;
+  border-color: #ddd;
+}
+.panel-white  .panel-footer {
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+.post .post-heading {
+  height: 95px;
+  padding: 20px 15px;
+}
+
+.post .post-heading .avatar {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-right: 15px;
+}
+
+.post .post-image .image {
+  width: 100%;
+  height: auto;
+}
+
+.post .post-description {
+  padding: 15px;
+}
+
+.post .post-description p {
+  font-size: 14px;
+}
+
+.post .post-footer {
+  border-top: 1px solid #ddd;
+  padding: 15px;
+}
+
+.post .post-footer .input-group-addon a {
+  color: #454545;
+}
+
+.comment-margin{
+  padding: 20px;
+}
